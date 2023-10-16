@@ -1,0 +1,23 @@
+#hw0pr4.txt
+
+#Florence Lin
+#Collaborated with: Lucas Lang, Cole Sumino, Annette Chang, Adam Vanluvanee
+# X = nothing there, NEWS = blocked, * = anything
+#StateNow   Surroundings   ->   MoveDirection   NewState
+
+#north 
+0 X*** -> N 1 #north empty, go north, check if right hand side is empty, if not follow right hand rule to east 
+0 N*** -> x 3 #north blocked, check west (already checked east), which will loop and continue checking south after west (see chunk 3) 
+
+#east
+1 *X** -> E 2 #east empty, go east, check if right hand side is empty, if not follow right hand rule to go south
+1 *E** -> x 0
+
+#south
+2 ***X -> S 3
+2 ***S -> x 1
+
+#west
+3 **X* -> W 0 #west empty, go west, check if right hand side is empty, if not follow right hand rule to go north
+3 **W* -> x 2 
+ 

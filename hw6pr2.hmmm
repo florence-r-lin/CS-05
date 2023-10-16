@@ -1,0 +1,17 @@
+# hw6 problem 2
+#
+# Name(s): Florence Lin
+#
+
+# computes the result of raising the first input to the power of the second input and prints
+00 read r1              #get input r1
+01 read r2              #get input r2
+02 setn r3 1             #r3 = initial value r1
+03 jeqzn r2 07          #if r2 == 0, go to line 07
+04 mul r3 r1 r3         #r3 = r1*r3
+05 addn r2 -1           #make r2 = r2 - 1
+06 jumpn 03             #jump to line3
+07 write r3             #write the result r3
+08 halt
+
+

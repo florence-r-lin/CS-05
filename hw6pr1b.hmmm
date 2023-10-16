@@ -1,0 +1,25 @@
+# hw6pr1b.hmmm will become a random-number generator  
+#
+# Name(s): Florence Lin
+
+# Lab task #2: Expand this to become your random-number generator:
+#   (Note: this is starter code that correctly handles the inputs...)
+# X1 = (a * X0 + c) % m.
+
+00 read r1    # input a
+01 read r2    # input c
+02 read r3    # input m
+03 read r4    # input X_0
+04 read r5    # input N
+
+05 jeqzn r5 13   #if r5 == 0 go to line 14 to stop
+06 write r4      # prints X_0
+07 mul r6 r1 r4  # multiplies a by xn and sets the answer to r6
+08 setn r7 1     # r7 == 1
+09 add r8 r2 r6  # r8 = c + (a*Xn)
+10 mod r4 r8 r3  # r4 = r8 % m
+11 sub r5 r5 r7  # subtract 1 from N
+12 jumpn 05      # go back to line 05
+13 halt
+
+

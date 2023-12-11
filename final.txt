@@ -1,0 +1,51 @@
+TextID analysis
+Florence Lin and Annette Chang
+
+For our two contrasting text models we will use the first chapter of Hunger Games and Divergent (Dystopian). This will be our base text that will be compared to our two other "test texts"
+Our two other test texts will be the first chapter of Harry Potter (Fantasy) and Percy Jackson (Fantasty).
+Our goal is to analyze which dystopian chapter is more similar to Fantasty
+We will run our comparison of our two "test texts" against our two trained models.
+
+Train1 = Hunger Games
+Train2 = Divergent
+Test1 = Harry Potter
+Test2 = Percy Jackson
+
+Hunger Games and Divergent compared to Harry Potter
+Overall comparison: 
+
+                     name        vsTM1        vsTM2 
+                     ----        -----        ----- 
+                    words    -31421.39    -32231.09 
+             word lengths     -9590.58     -9600.29 
+               word stems    -30676.61    -31521.44 
+         sentence lengths     -1251.62     -1376.75 
+repeated Phrases length 2    -41442.83    -41498.13 
+repeated Phrases length 3    -42437.71    -42444.47 
+repeated Phrases length 4    -42467.63    -42468.33 
+repeated Phrases length 5    -42468.33    -42468.33 
+--> Text model 1 wins on  7 features
+-->  Text model 2 wins on  0 features
+Text model 1 is the better match!
+
+Hunger Games and Divergent compared to Percy Jackson
+Overall comparison: 
+
+                     name        vsTM1        vsTM2 
+                     ----        -----        ----- 
+                    words    -23138.96    -23717.56 
+             word lengths     -7131.68     -7138.11 
+               word stems    -22642.68    -23226.59 
+         sentence lengths     -1120.00     -1258.29 
+     repeated Phrases length 2    -30614.92    -30642.80 
+     repeated Phrases length 3    -31419.98    -31414.24 
+     repeated Phrases length 4    -31449.09    -31446.17 
+     repeated Phrases length 5    -31451.86    -31451.86 
+--> Text model 1 wins on  5 features
+-->  Text model 2 wins on  2 features
+Text model 1 is the better match!
+
+Based off our four comparisons, we can conclude:
+text model 1 (Hunger Games) was more similar in terms of words, word lengths, word stems, sentence lengths, phrases of length 2 3 4 and 5 to Harry Potter than Divergent.
+text model 1 (Hunger Games) was more similar in terms of words, word lengths, word stems, sentence lengths, and phrases of length 2 to Harry Potter than Divergent.
+So, Hunger Games has more similarities to the genre Fantasy than Divergent based on our textID analysis.

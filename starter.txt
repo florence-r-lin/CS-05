@@ -1,0 +1,35 @@
+TextID project with Florence Lin and Annette Chang.
+
+For this project, we want to compare the lyrics of songs by different artists in several genres. 
+Group 1 Romance: 
+        Cherry wine- Grant Perez
+        Just the way you are - Bruno Mars
+        I'm Yours - Jason Mraz
+        Love Affair - UMI
+        Gimme Love - Joji
+
+Group 2 RnB: 
+        Best Part - Daniel Ceasar, HER
+        Deep End - Jaden
+        Let Me Know - Brent Faiyaz
+        Pink and White - Frank Ocean
+        Hold on, we're going home - Drake
+        Lost - Frank Ocean
+
+Group 3 Rap:
+        Too many nights - Metro
+        Walk in the Park - Jack Harlow
+        Overdue - Metro
+        Praise the lord - ASAP Rocky
+        Apeshit - The Carters 
+
+Group 4 Indie/Soft Pop:
+        As it was - Harry Styles
+        AMAZING - Rex Orange County
+        Lost In You - Khai Dreams
+        Blind - Role Model
+        Pretty Girl - Clario
+
+Group 5 Kanye Donda Album
+
+

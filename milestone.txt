@@ -1,0 +1,1 @@
+The project has been going well so far. So far in milestone.py we have implemented 5 functions that analyzes different length phrases of the songs. This will help us find the most common phrases in each song so we can compare meanings of lyrics.
